@@ -278,7 +278,7 @@ public final class KeyboardTextsSet {
         /* 50 */ "\u00A2,\u00A3,\u20AC,\u00A5,\u20B1",
         /* 51 */ "$",
         /* 52 */ "$,\u00A2,\u20AC,\u00A3,\u00A5,\u20B1",
-        /* 53 */ "!fixedColumnOrder!4,#,!,\\,,?,-,:,',@",
+        /* 53 */ "!fixedColumnOrder!8,;,/,(,),#,!,\\,,?,&,\\%,+,\",-,:,',@",
         // U+2020: "†" DAGGER
         // U+2021: "‡" DOUBLE DAGGER
         // U+2605: "★" BLACK STAR
@@ -785,7 +785,7 @@ public final class KeyboardTextsSet {
         null, null, null, null, null, null, null, null,
         /* ~52 */
         // U+00B7: "·" MIDDLE DOT
-        /* 53 */ "!fixedColumnOrder!4,\u00B7,!,\\,,?,:,;,@",
+        /* 53 */ "!fixedColumnOrder!9,;,/,(,),#,\u00B7,!,\\,,?,&,\\%,+,\",-,:,',@",
         /* 54~ */
         null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
         null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -951,6 +951,7 @@ public final class KeyboardTextsSet {
     /* Language de: German */
     private static final String[] LANGUAGE_de = {
         // U+00E4: "ä" LATIN SMALL LETTER A WITH DIAERESIS
+        // U+0040: "@" COMMERCIAL AT
         // U+00E2: "â" LATIN SMALL LETTER A WITH CIRCUMFLEX
         // U+00E0: "à" LATIN SMALL LETTER A WITH GRAVE
         // U+00E1: "á" LATIN SMALL LETTER A WITH ACUTE
@@ -958,7 +959,7 @@ public final class KeyboardTextsSet {
         // U+00E3: "ã" LATIN SMALL LETTER A WITH TILDE
         // U+00E5: "å" LATIN SMALL LETTER A WITH RING ABOVE
         // U+0101: "ā" LATIN SMALL LETTER A WITH MACRON
-        /* 0 */ "\u00E4,\u00E2,\u00E0,\u00E1,\u00E6,\u00E3,\u00E5,\u0101",
+        /* 0 */ "\u00E4,\u0040,\u00E2,\u00E0,\u00E1,\u00E6,\u00E3,\u00E5,\u0101",
         // U+00E9: "é" LATIN SMALL LETTER E WITH ACUTE
         // U+00E8: "è" LATIN SMALL LETTER E WITH GRAVE
         // U+00EA: "ê" LATIN SMALL LETTER E WITH CIRCUMFLEX
@@ -1935,7 +1936,7 @@ public final class KeyboardTextsSet {
         // U+20AA: "₪" NEW SHEQEL SIGN
         /* 51 */ "\u20AA",
         /* 52 */ null,
-        /* 53 */ null,
+        /* 53 */ "!fixedColumnOrder!8,;,/,(|),)|(,#,!,\\,,?,&,\\%,+,\",-,:,',@",
         // U+2605: "★" BLACK STAR
         /* 54 */ "\u2605",
         /* 55 */ null,

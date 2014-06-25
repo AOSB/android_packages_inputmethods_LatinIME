@@ -38,7 +38,7 @@
     <string name="show_language_switch_key" msgid="5915478828318774384">"Sprachwechsel"</string>
     <string name="show_language_switch_key_summary" msgid="7343403647474265713">"Anzeigen, wenn mehrere Eingabesprachen aktiviert sind"</string>
     <string name="sliding_key_input_preview" msgid="6604262359510068370">"Ziehbewegung anzeigen"</string>
-    <string name="sliding_key_input_preview_summary" msgid="6340524345729093886">"Ziehen mit gedrückter Shift- oder Symboltaste visuell darstellen"</string>
+    <string name="sliding_key_input_preview_summary" msgid="6340524345729093886">"Ziehen mit gedrückter Symboltaste oder Shift visuell darstellen"</string>
     <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"Tasten-Pop-up"</string>
     <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"Keine Verzögerung"</string>
     <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"Standard"</string>
@@ -74,21 +74,14 @@
     <string name="gesture_floating_preview_text" msgid="4443240334739381053">"Dyn. unverankerter Vorschlag"</string>
     <string name="gesture_floating_preview_text_summary" msgid="4472696213996203533">"Vorgeschlagenes Wort bei Bewegung anzeigen"</string>
     <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>: gespeichert"</string>
-    <string name="label_go_key" msgid="1635148082137219148">"Los"</string>
-    <string name="label_next_key" msgid="362972844525672568">"Weiter"</string>
-    <string name="label_previous_key" msgid="1211868118071386787">"Zurück"</string>
-    <string name="label_done_key" msgid="2441578748772529288">"Fertig"</string>
-    <string name="label_send_key" msgid="2815056534433717444">"Senden"</string>
-    <string name="label_pause_key" msgid="181098308428035340">"Pause"</string>
-    <string name="label_wait_key" msgid="6402152600878093134">"Warten"</string>
     <string name="spoken_use_headphones" msgid="896961781287283493">"Schließen Sie ein Headset an, um das Passwort gesprochen zu hören."</string>
     <string name="spoken_current_text_is" msgid="2485723011272583845">"Aktueller Text lautet %s"</string>
     <string name="spoken_no_text_entered" msgid="7479685225597344496">"Kein Text eingegeben"</string>
     <string name="spoken_auto_correct" msgid="8005997889020109763">"Mit <xliff:g id="KEY">%1$s</xliff:g> wird <xliff:g id="ORIGINAL_WORD">%2$s</xliff:g> zu <xliff:g id="CORRECTED">%3$s</xliff:g> korrigiert."</string>
     <string name="spoken_auto_correct_obscured" msgid="6276420476908833791">"Mit <xliff:g id="KEY">%1$s</xliff:g> erfolgt eine Autokorrektur."</string>
     <string name="spoken_description_unknown" msgid="3197434010402179157">"Tastencode %d"</string>
-    <string name="spoken_description_shift" msgid="244197883292549308">"Umschalttaste"</string>
-    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"Umschalttaste aktiviert (zum Deaktivieren berühren)"</string>
+    <string name="spoken_description_shift" msgid="244197883292549308">"Shift"</string>
+    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"Shift aktiviert (zum Deaktivieren berühren)"</string>
     <string name="spoken_description_caps_lock" msgid="3276478269526304432">"Feststelltaste aktiviert (zum Deaktivieren berühren)"</string>
     <string name="spoken_description_delete" msgid="8740376944276199801">"Entf"</string>
     <string name="spoken_description_to_symbol" msgid="5486340107500448969">"Symbole"</string>
@@ -105,9 +98,9 @@
     <string name="spoken_description_language_switch" msgid="5507091328222331316">"Sprache wechseln"</string>
     <string name="spoken_description_action_next" msgid="8636078276664150324">"Nächste"</string>
     <string name="spoken_description_action_previous" msgid="800872415009336208">"Vorherige"</string>
-    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"Umschalttaste aktiviert"</string>
+    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"Shift aktiviert"</string>
     <string name="spoken_description_shiftmode_locked" msgid="593175803181701830">"Feststelltaste aktiviert"</string>
-    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"Umschalttaste deaktiviert"</string>
+    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"Shift deaktiviert"</string>
     <string name="spoken_description_mode_symbol" msgid="7183343879909747642">"Symbolmodus"</string>
     <string name="spoken_description_mode_alpha" msgid="3528307674390156956">"Buchstabenmodus"</string>
     <string name="spoken_description_mode_phone" msgid="6520207943132026264">"Telefonmodus"</string>
@@ -154,6 +147,9 @@
     <string name="subtype_no_language_colemak" msgid="5837418400010302623">"Lat. Alphabet (Colemak)"</string>
     <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"Lat. Alphabet (PC)"</string>
     <string name="subtype_emoji" msgid="7483586578074549196">"Emoji"</string>
+    <string name="keyboard_color_scheme" msgid="9192934113872818070">"Farbschema"</string>
+    <string name="keyboard_color_scheme_white" msgid="6684064723850265438">"Weiß"</string>
+    <string name="keyboard_color_scheme_blue" msgid="2488527224758177593">"Blau"</string>
     <string name="custom_input_styles_title" msgid="8429952441821251512">"Benutzerdefinierte Eingabestile"</string>
     <string name="add_style" msgid="6163126614514489951">"Stil hinzufügen"</string>
     <string name="add" msgid="8299699805688017798">"Hinzufügen"</string>
